@@ -9,4 +9,5 @@ class Square
     @coordinates = coordinates
     @figure = figure
   end
+
 end

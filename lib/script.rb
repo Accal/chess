@@ -1,7 +1,9 @@
-require_relative 'board.rb'
-require_relative 'player.rb'
+require_relative 'board'
+require_relative 'player'
+require_relative 'game'
 
-board = Board.new
-player = Player.new(:white)
-board.generate_figures(player)
+game = Game.new
+puts 'lol'
+game.move([6, 6], [6, 5])
+game.move([1, 2], [3, 2])
 puts 'lol'
